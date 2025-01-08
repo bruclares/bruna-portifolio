@@ -1,0 +1,42 @@
+:root {
+  --cor-primaria: #ffffff; /* h1 - títulos - cards - parágrafos */
+  --cor-secundaria: #000000; /* sobre */
+  --cor-terciaria: #131313; /* background - links de h1 - links de menu */
+
+  /* Paleta de botões */
+  --button-1-bg: #f58235;
+  --button-1-hover: #e5722c;
+  --button-2-bg: #00b96d;
+  --button-2-hover: #009c5d;
+  --button-3-bg: #008ffd;
+  --button-3-hover: #007acc;
+  --button-4-bg: #fa6ee3;
+  --button-4-hover: #e65bd1;
+
+  /* Outras cores */
+  --cor-link: #131313;
+  --cor-link-hover: #ffffff;
+}
+
+.text-cor-primaria {
+  color: var(--cor-primaria);
+}
+
+.text-cor-secundaria {
+  color: var(--cor-secundaria);
+}
+
+.text-cor-terciaria {
+  color: var(--cor-terciaria);
+}
+
+.bg-1 {
+  background-color: var(--terciaria);
+}
+
+.cor-link {
+  background-color: var(--terciaria);
+}
+
+p {
+}

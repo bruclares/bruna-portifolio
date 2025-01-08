@@ -1,59 +1,56 @@
-a {
+.menu-1 {
   font-family: "Nunito", serif;
   display: inline-block;
   color: #131313;
   transition: background-color 0.3s, transform 0.3s;
 }
 
-/* Efeito de hover (passar o mouse) */
-a:hover {
-  transform: translateX(-3px); /* Leve movimento para cima */
+.menu-1:hover {
+  transform: translateX(-3px);
   color: #ffffff;
 }
 
-/* Efeito de foco (quando o link recebe foco) */
-a:focus {
+.menu-1:focus {
   outline: none;
   transform: translateX(-3px);
 }
 
 .button-1 {
-  background-color: #f58235;
+  background-color: var(--button-1-bg);
   border-radius: 0 25px 0 25px;
   padding: 4px 24px;
 }
 
 .button-1:hover {
-  background-color: #e5722c;
+  background-color: var(--button-1-hover);
 }
 
 .button-2 {
-  background-color: #00b96d;
+  background-color: var(--button-2-bg);
   border-radius: 10px 0 10px 0;
   padding: 4px 24px;
-  /* border: 3px solid #00a15c; */
 }
 
 .button-2:hover {
-  background-color: #009c5d;
+  background-color: var(--button-2-hover);
 }
 
 .button-3 {
-  background-color: #008ffd;
+  background-color: var(--button-3-bg);
   border-radius: 0 0 25px 0;
   padding: 4px 24px;
 }
 
 .button-3:hover {
-  background-color: #007acc;
+  background-color: var(--button-3-hover);
 }
 
 .button-4 {
-  background-color: #fa6ee3;
+  background-color: var(--button-4-bg);
   border-radius: 50px 50px 25px 25px;
   padding: 4px 24px;
 }
 
 .button-4:hover {
-  background-color: #e65bd1;
+  background-color: var(--button-4-hover);
 }
