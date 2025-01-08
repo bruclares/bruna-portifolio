@@ -1,15 +1,3 @@
-.hero-texto {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  row-gap: 8px;
-  font-family: "Nunito", serif;
-  font-size: 2rem;
-  line-height: 1.5;
-  font-weight: 900;
-  text-transform: uppercase;
-}
-
 .hero {
   box-sizing: border-box;
   padding: 1.25rem;
@@ -24,4 +12,15 @@
   margin-right: auto;
   min-height: 100vh;
   row-gap: 1rem;
+}
+.hero-texto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 8px;
+  font-family: "Nunito", serif;
+  font-size: 2.583rem;
+  line-height: 1.5;
+  font-weight: 900;
+  text-transform: uppercase;
 }

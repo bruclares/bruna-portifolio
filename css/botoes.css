@@ -1,16 +1,15 @@
-.menu-1 {
-  font-family: "Nunito", serif;
+.menu {
   display: inline-block;
   color: #131313;
   transition: background-color 0.3s, transform 0.3s;
 }
 
-.menu-1:hover {
+.menu:hover {
   transform: translateX(-3px);
   color: #ffffff;
 }
 
-.menu-1:focus {
+.menu:focus {
   outline: none;
   transform: translateX(-3px);
 }
