@@ -17,16 +17,6 @@
   margin-bottom: 56px;
 }
 
-.sobre-menu {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1rem;
-}
-
-.sobre-menu a {
-  display: inline-block;
-}
-
 .subtitulos {
   margin-bottom: 56px;
 }

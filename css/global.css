@@ -32,3 +32,13 @@ img {
   display: block;
   border-radius: 0.25rem;
 }
+
+.sobre-menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.sobre-menu a {
+  display: inline-block;
+}

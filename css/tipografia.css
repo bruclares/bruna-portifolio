@@ -8,6 +8,7 @@
   --font-p: 1.3rem;
   --font-small-p: 1rem;
   --font-h3: 1.5rem;
+  --font-card: 1rem;
 
   /* Pesos das fontes */
   --font-regular: 400;
@@ -29,5 +30,15 @@
   }
   .font-p {
     font: var(--font-semibold) var(--font-p) / 1.2 var(--font-primary);
+  }
+  .font-small-p {
+    font: var(--font-regular) var(--font-small-p) / 1.2 var(--font-primary);
+  }
+
+  .font-h3 {
+    font: var(--font-regular) var(--font-h3) / 1.5 var(--font-primary);
+  }
+  .font-card {
+    font: var(--font-regular) var(--font-card) / 1.5 var(--font-primary);
   }
 }

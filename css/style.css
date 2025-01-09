@@ -1,6 +1,7 @@
 @import "./global.css";
-@import "./hero.css";
-@import "./botoes.css";
-@import "./cores.css";
-@import "./sobre.css";
 @import "./tipografia.css";
+@import "./cores.css";
+@import "./botoes.css";
+@import "./hero.css";
+@import "./sobre.css";
+@import "./formacao.css";

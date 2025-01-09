@@ -2,7 +2,7 @@
   --cor-primaria: #ffffff; /* h1 - títulos - cards - parágrafos */
   --cor-secundaria: #000000; /* sobre */
   --cor-terciaria: #131313; /* background - links de h1 - links de menu */
-
+  --cor-card: #313131;
   /* Paleta de botões */
   --button-1-bg: #f58235;
   --button-1-hover: #e5722c;
@@ -42,5 +42,10 @@
   background-color: var(--cor-terciaria);
 }
 
-p {
+.cor-card {
+  background-color: var(--cor-card);
+}
+
+.cor.before {
+  background-color: #f29e00;
 }
