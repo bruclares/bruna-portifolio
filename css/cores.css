@@ -17,7 +17,9 @@
   --cor-link: #131313;
   --cor-link-hover: #ffffff;
 }
-
+.text-h3-cta {
+  color: var(--cor-card);
+}
 .text-cor-primaria {
   color: var(--cor-primaria);
 }

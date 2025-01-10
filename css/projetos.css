@@ -1,0 +1,38 @@
+.projetos-container {
+  box-sizing: border-box;
+  padding: 1.25rem;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 100vh;
+}
+
+.projetos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 56px;
+}
+
+.projetos-img {
+  margin-left: auto;
+}
+
+.projetos-itens {
+  display: flex;
+  column-gap: 50px;
+  margin-bottom: 50px;
+  /* align-items: center; */
+}
+
+.projetos-cta {
+  margin-top: 20px;
+}
+
+.projetos-itens h3 {
+  margin-bottom: 10px;
+}

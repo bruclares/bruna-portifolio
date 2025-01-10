@@ -41,4 +41,10 @@
   .font-card {
     font: var(--font-regular) var(--font-card) / 1.5 var(--font-primary);
   }
+  .font-cta {
+    font: var(--font-regular) var(--font-p) / 1.3 var(--font-primary);
+  }
+  .font-cta-h3 {
+    font: italic var(--font-p) / 1.3 var(--font-primary);
+  }
 }

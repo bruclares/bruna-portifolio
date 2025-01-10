@@ -30,7 +30,7 @@ a {
 img {
   max-width: 100%;
   display: block;
-  border-radius: 0.25rem;
+  border-radius: 4px;
 }
 
 .sobre-menu {
@@ -41,4 +41,8 @@ img {
 
 .sobre-menu a {
   display: inline-block;
+}
+
+.subtitulos {
+  margin-bottom: 56px;
 }

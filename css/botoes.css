@@ -17,7 +17,7 @@
 .button-1 {
   background-color: var(--button-1-bg);
   border-radius: 0 25px 0 25px;
-  padding: 4px 24px;
+  padding: 4px 12px;
 }
 
 .button-1:hover {
@@ -27,7 +27,7 @@
 .button-2 {
   background-color: var(--button-2-bg);
   border-radius: 10px 0 10px 0;
-  padding: 4px 24px;
+  padding: 4px 12px;
 }
 
 .button-2:hover {
@@ -37,7 +37,7 @@
 .button-3 {
   background-color: var(--button-3-bg);
   border-radius: 0 0 25px 0;
-  padding: 4px 24px;
+  padding: 4px 12px;
 }
 
 .button-3:hover {
@@ -47,9 +47,28 @@
 .button-4 {
   background-color: var(--button-4-bg);
   border-radius: 50px 50px 25px 25px;
-  padding: 4px 24px;
+  padding: 4px 12px;
 }
 
 .button-4:hover {
   background-color: var(--button-4-hover);
+}
+
+.button-5 {
+  background-color: #f29e00;
+  border-radius: 12px 12px 0 0;
+  padding: 4px 12px;
+}
+.button-5:hover {
+  background-color: #e68900;
+}
+
+.button-6 {
+  background-color: #ff5f57;
+  border-radius: 20px;
+  padding: 4px 12px;
+}
+
+.button-6:hover {
+  background-color: #e14e44;
 }
