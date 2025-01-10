@@ -47,4 +47,8 @@
   .font-cta-h3 {
     font: italic var(--font-p) / 1.3 var(--font-primary);
   }
+
+  .font-dados {
+    font: var(--font-bold) var(--font-h1) / 1.5 var(--font-primary);
+  }
 }
