@@ -33,6 +33,26 @@ img {
   border-radius: 4px;
 }
 
+.container {
+  box-sizing: border-box;
+  padding: 1.25rem;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 100vh;
+}
+
+.container-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 56px;
+}
+
 .sobre-menu {
   display: flex;
   flex-wrap: wrap;
@@ -45,4 +65,9 @@ img {
 
 .subtitulos {
   margin-bottom: 56px;
+}
+
+footer p {
+  margin-top: 56px;
+  text-align: center;
 }

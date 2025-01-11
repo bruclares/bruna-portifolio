@@ -1,20 +1,15 @@
-.formacao-container {
-  box-sizing: border-box;
-  padding: 1.25rem;
-  margin: 0 auto;
+.formacao-academica {
   display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-  min-height: 100vh;
-}
-.formacao {
-  display: flex;
+  flex-direction: row;
   justify-content: space-between;
-  align-items: center;
-  margin-bottom: 56px;
+}
+
+.formacao-item {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 50px;
+  margin-bottom: 48px;
 }
 
 .formacao-instituicao {
@@ -26,12 +21,15 @@
   margin-bottom: 10px;
 }
 
-.formacao-item {
+.card {
+  flex-basis: 25%;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  row-gap: 50px;
-  margin-bottom: 48px;
+  flex-direction: column;
+  border-radius: 20px;
+  border: 2px solid var(--cor-secundaria);
+  padding: 30px 30px;
+  position: relative;
+  max-height: max-content;
 }
 
 .card::before {
@@ -52,27 +50,10 @@
   transform: rotate(0deg);
 }
 
-.card {
-  flex-basis: 25%;
-  display: flex;
-  flex-direction: column;
-  border-radius: 20px;
-  border: 2px solid var(--cor-secundaria);
-  padding: 30px 30px;
-  position: relative;
-  max-height: max-content;
-}
-
-.card a:hover {
-  color: #ff5757;
-}
-
 .card a {
   margin-left: auto;
 }
 
-.formacao-academica {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+.card a:hover {
+  color: #ff5757;
 }

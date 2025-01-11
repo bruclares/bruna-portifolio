@@ -1,21 +1,6 @@
-.contato-container {
-  box-sizing: border-box;
-  padding: 1.25rem;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-  min-height: 100vh;
-}
-
-.contato {
+.contato-info {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  margin-bottom: 56px;
 }
 
 .contato-itens {
@@ -24,14 +9,10 @@
   margin-bottom: 1rem;
 }
 
-.contato-info {
-  display: flex;
-  justify-content: space-between;
-}
-
-.contato-info address {
-  /* align-self: center; */
-}
 .contato-itens a:hover {
   color: #ff5757;
+}
+
+footer {
+  margin-bottom: auto;
 }

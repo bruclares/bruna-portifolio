@@ -1,7 +1,7 @@
 :root {
-  --cor-primaria: #ffffff; /* h1 - títulos - cards - parágrafos */
-  --cor-secundaria: #000000; /* sobre */
-  --cor-terciaria: #131313; /* background - links de h1 - links de menu */
+  --cor-primaria: #ffffff;
+  --cor-secundaria: #000000;
+  --cor-terciaria: #131313;
   --cor-card: #313131;
   /* Paleta de botões */
   --button-1-bg: #f58235;
