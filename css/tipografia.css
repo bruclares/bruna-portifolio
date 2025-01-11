@@ -49,6 +49,6 @@
   }
 
   .font-dados {
-    font: var(--font-bold) var(--font-h1) / 1.5 var(--font-primary);
+    font: var(--font-regular) var(--font-h2) / 1.5 var(--font-primary);
   }
 }

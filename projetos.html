@@ -4,13 +4,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Bruna Clares | Portfólio de Desenvolvedora Full Stack</title>
+  <title>Bruna Clares | Projetos de Desenvolvimento</title>
   <meta name="description"
-    content="Portfólio de Bruna Clares Cardoso, desenvolvedora Full Stack em formação, com foco em JavaScript, HTML, CSS, Python e SQL.">
+    content="Confira os projetos de Bruna Clares, desenvolvedora Full Stack em formação. Veja como ela aplica suas habilidades em JavaScript, HTML, CSS e outras tecnologias em soluções reais.">
   <meta name="author" content="Bruna Clares Cardoso">
-  <meta property="og:title" content="Bruna Clares - Desenvolvedora Full Stack">
+  <meta property="og:title" content="Projetos de Bruna Clares - Desenvolvedora Full Stack">
   <meta property="og:description"
-    content="Portfólio com projetos e formação de Bruna Clares, desenvolvedora em formação em tecnologias web.">
+    content="Veja os projetos desenvolvidos por Bruna Clares, uma desenvolvedora Full Stack em formação, que aplica suas habilidades em JavaScript, HTML, CSS e mais para criar soluções inovadoras.">
   <!-- <meta property="og:image" content="URL_da_imagem_do_portfólio">
 <meta property="og:url" content="URL_do_portfólio"> -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -21,24 +21,24 @@
   <link rel="stylesheet" href="./css/style.css">
 </head>
 
-<body>
-  <section class="projetos-container" aria-label="Formações acadêmicas de Bruna" id="formacao">
-    <div class="projetos">
-      <a href="/">
-        <img src="./img/logo-home.svg" alt="Logo escrito Bruna com fonte branca" width="150">
-      </a>
-      <nav aria-label="Menu">
-        <ul class="sobre-menu font-menu-2">
-          <li><a class="button-1 menu" href="./sobre.html">Sobre</a></li>
-          <li><a class="button-2 menu" href="./projetos.html">Projetos</a></li>
-          <li><a class="button-3 menu" href="./formacao.html">Formação</a></li>
-          <li><a class="button-4 menu" href="./contato.html">Contato</a></li>
-        </ul>
-      </nav>
-    </div>
-
+<body class="projetos-container">
+  <header class="projetos">
+    <a href="/">
+      <img src="./img/logo-home.svg" alt="Logo escrito Bruna com fonte branca" width="140">
+    </a>
+    <nav aria-label="Menu">
+      <ul class="sobre-menu font-menu-2">
+        <li><a class="button-1 menu" href="./sobre.html" aria-label="Ir para a página Sobre">Sobre</a></li>
+        <li><a class="button-2 menu" href="./projetos.html" aria-label="Ir para a página de Formação">Projetos</a>
+        </li>
+        <li><a class="button-3 menu" href="./formacao.html" aria-label="Ir para a página de Projetos">Formação</a>
+        </li>
+        <li><a class="button-4 menu" href="./contato.html" aria-label="Ir para a página de Contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section aria-label="Formações acadêmicas de Bruna" id="formacao">
     <h2 class="subtitulos font-h2 text-cor-primaria">Meus Projetos</h2>
-
     <article class="projetos-itens">
       <img src="./img/advogados.svg" alt="Print da tela do projeto de uma langing page para advogados" width="590">
       <div>
@@ -48,16 +48,15 @@
           Processo completo de design e desenvolvimento.
           Otimização para garantir velocidade e eficiência.
           Resultado: Uma página profissional para advogados que desejam uma presença online sólida e moderna.
-
         <p class="projetos-cta text-cor-primaria font-cta">
-          Quer ver mais? <br> Acesse o projeto no <a class="menu button-5" href=""
+          Quer ver mais? <br> Acesse o projeto no <a target="_blank" class="menu button-5"
+            href="https://github.com/bruclares/advogados"
             aria-label=" Botão que redireciona para o repositório do projeto no github">Github</a> e no <a
-            class="menu button-6" href=""
+            target="_blank" class="menu button-6" href="https://advogados-ecru.vercel.app/"
             aria-label="Botão que redireciona para o link do projeto hospedado no Vercel">Vercel</a>.
         </p>
       </div>
     </article>
-
     <article class="projetos-itens">
       <img src="./img/vacinapet.svg"
         alt="Print da tela que apresenta o projeto de gerenciamento de vacinas do pets Vacinapet" width="590">
@@ -69,14 +68,14 @@
           com Bootstrap 5.3. Um projeto funcional e organizado para facilitar a vida dos usuários.
         </p>
         <p class="projetos-cta text-cor-primaria font-cta">
-          Quer ver mais? <br> Acesse o projeto no <a class="menu button-5" href=""
+          Quer ver mais? <br> Acesse o projeto no <a target="_blank" class="menu button-5"
+            href="https://github.com/bruclares/vacinapet"
             aria-label="Botão que redireciona para o repositório do projeto no github">Github</a> e no <a
-            class="menu button-6" href=""
+            target="_blank" class="menu button-6" href=""
             aria-label="Botão que redireciona para o link do projeto hospedado no Vercel">Vercel</a>.
         </p>
       </div>
     </article>
-
     <article class="projetos-itens">
       <img src="./img/listup.svg" alt="Print da tela que apresenta o projeto de gerenciamento de tarefas listUp"
         width="590">
@@ -89,14 +88,14 @@
           e eficiente.
         </p>
         <p class="projetos-cta text-cor-primaria font-cta">
-          Quer ver mais? <br> Acesse o projeto no <a class="menu button-5" href="
-          aria-label=" Botão que redireciona para o repositório do projeto no github">Github</a> e no <a
-            class="menu button-6" href=""
+          Quer ver mais? <br> Acesse o projeto no <a target="_blank" class="menu button-5"
+            href="https://github.com/bruclares/listup"
+            aria-label=" Botão que redireciona para o repositório do projeto no github">Github</a> e no <a
+            target="_blank" class="menu button-6" href=""
             aria-label="Botão que redireciona para o link do projeto hospedado no Vercel">Vercel</a>.
         </p>
       </div>
     </article>
-
     <article class="projetos-itens">
       <img src="./img/bikcraft.svg"
         alt="Print da tela que apresenta o projeto bikcraft feito durante o curso de HTNL e CSS" width="590">
@@ -111,14 +110,14 @@
           Customização: Imagens e fontes personalizadas.
         </p>
         <p class="projetos-cta text-cor-primaria font-cta">
-          Quer ver mais? <br> Acesse o projeto no <a class="menu button-5" href=""
+          Quer ver mais? <br> Acesse o projeto no <a target="_blank" class="menu button-5"
+            href="https://github.com/bruclares/bikcraft"
             aria-label=" Botão que redireciona para o repositório do projeto no github">Github</a> e no <a
-            class="menu button-6" href=""
+            target="_blank" class="menu button-6" href="https://bikcraft-ashy-xi.vercel.app/"
             aria-label="Botão que redireciona para o link do projeto hospedado no Vercel">Vercel</a>.
         </p>
       </div>
     </article>
-
     <article class="projetos-itens">
       <img src="./img/meteora.svg"
         alt="Print da tela que apresenta o projeto de landing page feito durante estudo de Bootstrap 5" width="590">
@@ -133,14 +132,14 @@
           Posicionamento de elementos com Grid e Flexbox do Bootstrap.
         </p>
         <p class="projetos-cta text-cor-primaria font-cta">
-          Quer ver mais? <br> Acesse o projeto no <a class="menu button-5" href=""
+          Quer ver mais? <br> Acesse o projeto no <a target="_blank" class="menu button-5"
+            href="https://github.com/bruclares/meteora"
             aria-label="Botão que redireciona para o repositório do projeto no github">Github</a> e no <a
-            class="menu button-6" href=""
+            target="_blank" class="menu button-6" href="https://meteora-zeta-weld.vercel.app/"
             aria-label="Botão que redireciona para o link do projeto hospedado no Vercel">Vercel</a>.
         </p>
       </div>
     </article>
-
     <article class="projetos-itens">
       <img src="./img/serenatto.svg"
         alt="Print da tela que apresenta o projeto de landing page feito durante estudo de Bootstrap 5" width="590">
@@ -150,17 +149,20 @@
           Desenvolvi este projeto aplicando: integração do Bootstrap, responsividade, Parallax com CSS, efeitos
           translúcidos, Grid, Breakpoints, modais, semântica em formulários e customização de inputs. Também implementei
           modo noturno com JavaScript, alterei temas no Bootstrap e utilizei Bootstrap Icons para criar um rodapé
-          funcional e acessível.
+          funcional e acessível.</p>
         <p class="projetos-cta text-cor-primaria font-cta">
-          Quer ver mais? <br> Acesse o projeto no <a class="menu button-5" href=""
+          Quer ver mais? <br> Acesse o projeto no <a target="_blank" class="menu button-5"
+            href="https://github.com/bruclares/serenatto"
             aria-label=" Botão que redireciona para o repositório do projeto no github">Github</a> e no <a
-            class="menu button-6" href=""
+            target="_blank" class="menu button-6" href="https://serenatto-azure-seven.vercel.app/"
             aria-label="Botão que redireciona para o link do projeto hospedado no Vercel">Vercel</a>.
         </p>
       </div>
     </article>
-    <img class="projetos-img" src="./img/projetos.svg" alt="Ilustração de um computador" width="390">
   </section>
+  <footer>
+    <img class="projetos-img" src="./img/projetos.svg" alt="Ilustração de um computador" width="390">
+  </footer>
 </body>
 
 </html>

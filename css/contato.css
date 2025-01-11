@@ -30,5 +30,8 @@
 }
 
 .contato-info address {
-  align-self: center;
+  /* align-self: center; */
+}
+.contato-itens a:hover {
+  color: #ff5757;
 }
