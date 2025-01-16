@@ -14,38 +14,54 @@
   --font-regular: 400;
   --font-semibold: 600;
   --font-bold: 900;
+}
 
-  .font-h1 {
-    font: var(--font-bold) var(--font-h1) / 1.5 var(--font-primary);
-    text-transform: uppercase;
-  }
+.font-h1 {
+  font: var(--font-bold) var(--font-h1) / 1.5 var(--font-primary);
+  text-transform: uppercase;
+}
+.font-h2 {
+  font: var(--font-bold) var(--font-h2) / 1.5 var(--font-primary);
+  text-transform: uppercase;
+}
+.font-menu-2 {
+  font: var(--font-bold) var(--font-menu2) / 1.5 var(--font-primary);
+  text-transform: lowercase;
+}
+.font-p {
+  font: var(--font-semibold) var(--font-p) / 1.2 var(--font-primary);
+}
+.font-small-p {
+  font: var(--font-regular) var(--font-small-p) / 1.2 var(--font-primary);
+}
+.font-h3 {
+  font: var(--font-regular) var(--font-h3) / 1.5 var(--font-primary);
+}
+.font-card {
+  font: var(--font-regular) var(--font-card) / 1.5 var(--font-primary);
+}
+.font-cta {
+  font: var(--font-regular) var(--font-p) / 1.3 var(--font-primary);
+}
+.font-cta-h3 {
+  font: italic var(--font-p) / 1.3 var(--font-primary);
+}
+.font-dados {
+  font: var(--font-regular) var(--font-h2) / 1.5 var(--font-primary);
+}
+
+.font-botao-menu {
+  font: var(--font-bold) var(--font-menu2) / 1.5 var(--font-primary);
+  text-transform: uppercase;
+}
+
+@media (max-width: 690px) {
   .font-h2 {
-    font: var(--font-bold) var(--font-h2) / 1.5 var(--font-primary);
+    font: var(--font-bold) var(--font-h3) / 1.5 var(--font-primary);
     text-transform: uppercase;
   }
-  .font-menu-2 {
-    font: var(--font-bold) var(--font-menu2) / 1.5 var(--font-primary);
-    text-transform: lowercase;
-  }
+
   .font-p {
-    font: var(--font-semibold) var(--font-p) / 1.2 var(--font-primary);
-  }
-  .font-small-p {
-    font: var(--font-regular) var(--font-small-p) / 1.2 var(--font-primary);
-  }
-  .font-h3 {
-    font: var(--font-regular) var(--font-h3) / 1.5 var(--font-primary);
-  }
-  .font-card {
-    font: var(--font-regular) var(--font-card) / 1.5 var(--font-primary);
-  }
-  .font-cta {
-    font: var(--font-regular) var(--font-p) / 1.3 var(--font-primary);
-  }
-  .font-cta-h3 {
-    font: italic var(--font-p) / 1.3 var(--font-primary);
-  }
-  .font-dados {
-    font: var(--font-regular) var(--font-h2) / 1.5 var(--font-primary);
+    font: var(--font-semibold) var(--font-h3) / 1.2 var(--font-primary);
   }
 }

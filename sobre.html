@@ -19,6 +19,9 @@
     href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="./css/style.css">
+
+
+
 </head>
 
 <body class="container">
@@ -26,9 +29,9 @@
     <a href="/">
       <img src="./img/logo-home.svg" alt="Logo escrito Bruna com fonte branca" width="140">
     </a>
-    <nav aria-label="Menu">
+    <nav class="nav" aria-label="Menu">
       <ul class="sobre-menu font-menu-2">
-        <li><a class="button-1 menu" href="./sobre.html" aria-label="Ir para a página Sobre">Sobre</a></li>
+        <li><a class="button-1 menu nav-itens" href="./sobre.html" aria-label="Ir para a página Sobre">Sobre</a></li>
         <li><a class="button-2 menu" href="./projetos.html" aria-label="Ir para a página de Formação">Projetos</a>
         </li>
         <li><a class="button-3 menu" href="./formacao.html" aria-label="Ir para a página de Projetos">Formação</a>
@@ -36,7 +39,11 @@
         <li><a class="button-4 menu" href="./contato.html" aria-label="Ir para a página de Contato">Contato</a></li>
       </ul>
     </nav>
+    <button class="toggle-menu font-botao-menu">
+      menu
+    </button>
   </header>
+
   <section aria-label="Informações profissionais sobre a Bruna" id="sobre">
     <h2 class="subtitulos font-h2 text-cor-primaria">Que bom que está por aqui!</h2>
     <dl class="sobre-dialogo font-p text-cor-secundaria">
@@ -85,10 +92,12 @@
         criativamente e garantir que cada detalhe tenha propósito.</dd>
     </dl>
   </section>
-  <footer class="sobre-img">
+  <footer>
     <img src="./img/sobre.svg" alt="Ilustração da Bruna com dois gatos pretos, cada um em um ombro" width="390">
     <p class="font-small-p text-cor-primaria">Design e Desenvolvimento por Bruna Clares Cardoso 2024.</p>
   </footer>
+
+  <script src="./js/script.js"></script>
 </body>
 
 </html>

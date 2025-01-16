@@ -1,12 +1,12 @@
 .menu {
   display: inline-block;
-  color: #131313;
+  color: var(--cor-terciaria);
   transition: background-color 0.3s, transform 0.3s;
 }
 
 .menu:hover {
   transform: translateX(-3px);
-  color: #ffffff;
+  color: var(--cor-primaria: );
 }
 
 .menu:focus {

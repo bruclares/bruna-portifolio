@@ -5,7 +5,7 @@
 }
 
 .sobre-perguntas {
-  width: max-content;
+  width: fit-content;
   border-radius: 0 30px 30px 30px;
   padding: 15px 20px;
 }
@@ -15,4 +15,14 @@
   align-self: flex-end;
   border-radius: 30px 0px 30px 30px;
   padding: 15px 20px;
+}
+
+@media (max-width: 690px) {
+  .sobre-respostas {
+    max-width: 100%;
+  }
+
+  .sobre-perguntas {
+    max-width: 100%;
+  }
 }
