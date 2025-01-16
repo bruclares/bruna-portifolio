@@ -100,4 +100,7 @@ footer p {
   .subtitulos {
     margin-bottom: 40px;
   }
+  .header img {
+    width: 125px;
+  }
 }
