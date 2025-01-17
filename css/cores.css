@@ -40,6 +40,10 @@
   background-color: var(--cor-primaria);
 }
 
+.bg-3 {
+  background-color: var(--cor-secundaria);
+}
+
 .cor-link {
   background-color: var(--cor-terciaria);
 }
