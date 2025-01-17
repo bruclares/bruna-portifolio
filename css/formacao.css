@@ -57,3 +57,27 @@
 .card a:hover {
   color: #ff5757;
 }
+
+@media (max-width: 800px) {
+  .formacao-academica {
+    margin-bottom: 56px;
+  }
+
+  .formacao-academica img {
+    display: none;
+  }
+
+  .formacao-item {
+    display: flex;
+    flex-direction: column;
+    max-width: 70%;
+  }
+}
+@media (max-width: 575px) {
+  .formacao-item {
+    max-width: 100%;
+  }
+  .formacao-instituicao {
+    font-size: 1.2rem;
+  }
+}

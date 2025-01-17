@@ -1,7 +1,10 @@
 .projetos-itens {
   display: flex;
   column-gap: 50px;
-  margin-bottom: 50px;
+}
+
+.projetos-itens:not(:last-child) {
+  margin-bottom: 70px;
 }
 
 .projetos-itens h3 {

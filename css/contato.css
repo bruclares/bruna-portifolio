@@ -16,3 +16,26 @@
 footer {
   margin-bottom: auto;
 }
+
+@media (max-width: 1000px) {
+  .contato-info {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 800px) {
+  .contato-info {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 575px) {
+  .contato-itens img {
+    width: 40px;
+  }
+  .contato-itens a {
+    font-size: 1.5rem;
+  }
+}

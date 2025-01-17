@@ -17,7 +17,7 @@
   padding: 15px 20px;
 }
 
-@media (max-width: 690px) {
+@media (max-width: 800px) {
   .sobre-respostas {
     max-width: 100%;
   }
