@@ -3,7 +3,7 @@
 }
 
 body {
-  background-color: #131313;
+  background-color: var(--cor-terciaria);
   margin: 0;
   padding: 0;
   width: 100%;
@@ -76,7 +76,7 @@ footer p {
   text-align: center;
 }
 
-@media (max-width: 690px) {
+@media (max-width: 800px) {
   .nav {
     flex-basis: 100%;
     display: none;
@@ -101,6 +101,6 @@ footer p {
     margin-bottom: 40px;
   }
   .header img {
-    width: 125px;
+    width: 50px;
   }
 }

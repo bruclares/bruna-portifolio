@@ -9,9 +9,43 @@
 }
 
 .projetos-cta {
+  display: flex;
+  width: 100%;
+  column-gap: 30px;
   margin-top: 20px;
 }
 
 .projetos-img {
   margin-left: auto;
+}
+
+@media (max-width: 1000px) {
+  .projetos-itens {
+    display: grid;
+    grid-template-columns: 1fr;
+    max-width: 100%;
+  }
+  .projetos-itens h3 {
+    margin-bottom: 20px;
+  }
+
+  .projetos-itens-img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 690px) {
+  .projetos-itens {
+    flex-direction: column;
+    column-gap: 0px;
+  }
+  .projetos-itens h3 {
+    margin-bottom: 20px;
+  }
+  .projetos-itens-img {
+    margin-bottom: 20px;
+  }
 }
