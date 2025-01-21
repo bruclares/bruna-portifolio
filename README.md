@@ -15,7 +15,7 @@ Bem-vindo ao repositório do meu portfólio, um projeto desenvolvido para aprese
 
 ## Deploy
 
-O projeto está hospedado na Vercel e pode ser acessado em: (https://bruna-portifolio-iota.vercel.app/).
+O projeto está hospedado na Vercel e pode ser acessado em: [Link para o site](https://bruna-portifolio-iota.vercel.app/).
 
 ## Licença
 
