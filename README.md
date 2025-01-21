@@ -11,11 +11,11 @@ Bem-vindo ao repositório do meu portfólio, um projeto desenvolvido para aprese
 - **Vercel**: Deploy rápido e confiável.
 - **Design no Canva**: Prototipagem e criação de elementos visuais exclusivos.
 - **CSS Minificado**: Melhorando o desempenho do site.
-- **JavaScript**: Adicionado para animação dos botões.
+- **JavaScript**: Adicionado para controlar a funcionalidade do menu mobile.
 
 ## Deploy
 
-O projeto está hospedado na Vercel e pode ser acessado em: [Link para o site](https://bruna-portifolio-iota.vercel.app/).
+O projeto está hospedado na Vercel e pode ser acessado em: (https://bruna-portifolio-iota.vercel.app/).
 
 ## Licença
 
