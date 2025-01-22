@@ -38,4 +38,10 @@ footer {
   .contato-itens a {
     font-size: 1.5rem;
   }
+
+  .contato-itens {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
 }
