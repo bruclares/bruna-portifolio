@@ -72,3 +72,13 @@
 .button-6:hover {
   background-color: #e14e44;
 }
+
+.button-cv {
+  background-color: #ff5f57;
+  border-radius: 0px 25px 0px 0px;
+  padding: 4px 12px;
+}
+
+/* .button-cv:hover {
+  background-color: #e14e44;
+} */
