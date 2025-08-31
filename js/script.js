@@ -1,9 +1,5 @@
-const botaoToggle = document.querySelector(".toggle-menu");
-const navegacao = document.querySelector(".nav");
+import initAnimacaoScroll from "./modules/animacao.js";
+import initMenuMobile from "./modules/menu-mobile.js";
 
-if (botaoToggle && navegacao) {
-  function toggleMenu(event) {
-    navegacao.classList.toggle("show");
-  }
-  botaoToggle.addEventListener("click", toggleMenu);
-}
+initAnimacaoScroll();
+initMenuMobile();
