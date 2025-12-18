@@ -14,6 +14,13 @@ Bem-vindo ao repositório do meu portfólio, um projeto desenvolvido para aprese
 - **CSS Minificado**: Melhorando o desempenho do site.
 - **JavaScript**: Adicionado para controlar a funcionalidade do menu mobile.
 
+## Acesso à Demonstração
+
+| Acesso           | Link                                                                   | Credenciais (Demo)                          |
+| :--------------- | :--------------------------------------------------------------------- | :------------------------------------------ |
+| **Site Público** | [Ver Site](https://portfolio-fotografo.vercel.app/)                    | -                                           |
+| **Painel Admin** | [Fazer Login](https://portfolio-fotografo.vercel.app/admin/login.html) | **Email:** admin@admin.com - **Senha:** 789 |
+
 ## Deploy
 
 O projeto está hospedado na Vercel e pode ser acessado em: [Link para o site](https://bruna-portifolio-iota.vercel.app/).
