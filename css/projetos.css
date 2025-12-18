@@ -22,6 +22,12 @@
   margin-left: auto;
 }
 
+.projetos-destaques{
+  list-style: disc;
+  margin-left: 20px;
+  padding: 10px;
+}
+
 @media (max-width: 1000px) {
   .projetos-itens {
     display: grid;
