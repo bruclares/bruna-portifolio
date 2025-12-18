@@ -30,6 +30,7 @@
   padding: 30px 30px;
   position: relative;
   max-height: max-content;
+  margin-bottom: 48px;
 }
 
 .card::before {
