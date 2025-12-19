@@ -28,9 +28,15 @@
   padding: 10px;
 }
 
+.projetos-destaques li {
+  line-height: 1.5;
+  /* padding-bottom: 10px; */
+}
+
 @media (max-width: 1000px) {
   .projetos-itens {
     display: grid;
+
     grid-template-columns: 1fr;
     max-width: 100%;
   }
@@ -55,6 +61,15 @@
     margin-bottom: 20px;
   }
   .projetos-itens-img {
+    margin-bottom: 20px;
+  }
+
+  .projetos-cta {
+    display: flex;
+    flex-wrap: wrap;
+    /* padding-bottom: 10px; */
+  }
+  .projetos-cta a {
     margin-bottom: 20px;
   }
 }
